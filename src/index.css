@@ -10,6 +10,39 @@
   @apply font-bold 
 }
 
+/* Add this to your CSS file */
+
+.gradient-shadow {
+  position: relative;
+}
+
+.gradient-shadow::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  /* background: radial-gradient(circle, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 70%); */
+  pointer-events: none;
+  z-index: 1;
+}
+
+.common-btn{@apply btn common-bg text-white hover:text-black}
+
+.gradient-border {
+  border-width: 8px;
+  border-image: linear-gradient(to right, #ff0000, #00ff00); /* Adjust gradient colors */
+  border-image-slice: 1;
+}
+
+.gradient-box-shadow {
+  box-shadow: 0 0 20px 0 rgba(255, 0, 0, 0.5), 0 0 40px 0 rgb(0, 149, 166); /* Adjust shadow colors and spread */
+}
+
+/* #0095A6 */
+
 .common-bg{background-color: rgb(0, 149, 166);}
 
 .my-body-font {
