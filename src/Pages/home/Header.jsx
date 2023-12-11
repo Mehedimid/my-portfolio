@@ -1,31 +1,70 @@
-import me3 from "../../assets/me3.png";
+import { Typewriter } from "react-simple-typewriter";
 import me from "../../assets/me.png";
+import { RxArrowDown, RxGithubLogo } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 function Header(props) {
   return (
     <>
-      <div className=" header bg-gradient-to-r from-slate-800 py-28  text-white ">
+      <div className=" header py-28  text-white ">
         <div className="size flex flex-col-reverse lg:flex-row items-center gap-5 justify-center">
           <div className="lg:w-1/2 ">
             <div className="mx-5">
-              <h1 className=" text-3xl text-center md:text-start md:text-5xl font-bold">
-                HI, I'M MEHEDI! CREATIVE DESIGNERCODER
-              </h1>
+              <div className="App text-4xl">
+                <h1
+                  style={{
+                    paddingTop: "5rem",
+                    margin: "auto 0",
+                    fontWeight: "normal",
+                  }}>
+                  HI, I'M MEHEDI! <br />
+                  <span style={{ color: "#0095A6", fontWeight: "bold" }}>
+                    <Typewriter
+                      words={["WEB DEVELOPER!", "JAVASCRIPT!", "REACT!"]}
+                      loop={1500}
+                      cursor
+                      cursorStyle="_"
+                      typeSpeed={70}
+                      deleteSpeed={50}
+                      delaySpeed={1000}
+                    />
+                  </span>
+                </h1>
+              </div>
+
               <p className=" py-8 text-center md:text-start">
-                Passionate React developer eager to contribute and learn in a
-                collaborative team environment. Seeking opportunities to apply
-                skills in front-end development, collaborate with experienced
-                professionals, and contribute to innovative projects. Open to
-                mentorship and growth opportunities while aiming to contribute
-                meaningfully to the field.
+                I am a Passionate React developer eager to contribute and learn
+                in a collaborative team environment. Seeking opportunities to
+                apply skills in front-end development, collaborate with
+                experienced professionals, and contribute to innovative
+                projects. Open to mentorship and growth opportunities while
+                aiming to contribute meaningfully to the field.
               </p>
-              <button className="common-btn">Get Started</button>
+              <div className="flex flex-col md:flex-row gap-5">
+                <button  className="common-btn uppercase">
+                  {" "}
+                  <span className="flex items-center">
+                    {" "}
+                    download cv <RxArrowDown className="text-xl" />{" "}
+                  </span>{" "}
+                </button>
+                <Link to='https://github.com/Mehedimid' className="common-btn uppercase">
+                  {" "}
+                  <span className="flex gap-1 items-center ">
+                    {" "}
+                    <RxGithubLogo className="text-xl" /> github
+                  </span>{" "}
+                </Link>
+              </div>
             </div>
           </div>
           <div className="lg:w-1/2 flex justify-center gradient-shadow">
             <div className="">
               <div className=" gradient-box-shadow rounded-full">
-                <img src={me} className="w-full h-full rounded-full bg-orange-300" />
+                <img
+                  src={me}
+                  className="w-full h-full rounded-full bg-orange-300"
+                />
               </div>
             </div>
           </div>

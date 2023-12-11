@@ -8,6 +8,7 @@ function Navbar(props) {
       <NavLink to="/porjects">Projects</NavLink>
       <NavLink to="/about">About</NavLink>
       <NavLink to="/contact">Contact</NavLink>
+      <NavLink to="/">Resume</NavLink>
       {/* <NavLink to="/blog">Blog</NavLink> */}
     </>
   );
@@ -54,7 +55,7 @@ function Navbar(props) {
 
           {/* navlinks for lg  */}
           <div className="navbar-end hidden lg:flex ">
-            <ul className="menu menu-horizontal px-1 gap-6 text-base mr-16 tracking-wider">
+            <ul className="menu menu-horizontal px-1 gap-6 text-base  tracking-wider">
               {navlinks}
             </ul>
           </div>

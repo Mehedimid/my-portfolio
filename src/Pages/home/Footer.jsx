@@ -17,6 +17,11 @@ function Footer(props) {
         </svg>
     <p> © MEHEDI HASASN || All right reserved</p>
       </aside>
+
+     <div>
+      <h2>BRAHMANBARIA , CHATTOGRAM, BANGLADESH</h2>
+     </div>
+
       <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
         <a>
           <svg
