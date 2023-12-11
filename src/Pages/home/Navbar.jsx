@@ -5,27 +5,61 @@ function Navbar(props) {
   const navlinks = (
     <>
       <NavLink to="/">Home</NavLink>
-      <NavLink to="/offer">Projects</NavLink>
-      <NavLink to="/offer">About</NavLink>
-      <NavLink to="/offer">Contact</NavLink>
-      <NavLink to="/blog">Blog</NavLink>
+      <NavLink to="/porjects">Projects</NavLink>
+      <NavLink to="/about">About</NavLink>
+      <NavLink to="/contact">Contact</NavLink>
+      {/* <NavLink to="/blog">Blog</NavLink> */}
     </>
   );
 
   return (
     <>
-      <div className="navbar bg-purple-900 text-white ">
-        <div className="size">
-          <div className="flex-1">
-            <a className="btn btn-ghost text-xl">MehediMid</a>
+     
+    <nav className="bg-[#020316] nav py-3 size  md:shadow-black shadow-lg  ">
+        <div className="navbar my-nav-font  text-white ">
+          <div className="navbar-start">
+
+            {/* hidden and mobile icon */}
+            <div className="dropdown">
+              <div
+                tabIndex={0}
+                role="button"
+                className="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabIndex={0}
+                className="menu menu-sm bg-black dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52">
+                {navlinks}
+              </ul>
+            </div>
+            <Link
+              to="/"
+              className="btn btn-ghost text-3xl mehedi-font font-bold ">
+              Mehedimid
+            </Link>
           </div>
-          <div className="flex-none">
-            <ul className="menu menu-horizontal px-1 gap-4 text-base">
+
+          {/* navlinks for lg  */}
+          <div className="navbar-end hidden lg:flex ">
+            <ul className="menu menu-horizontal px-1 gap-6 text-base mr-16 tracking-wider">
               {navlinks}
             </ul>
           </div>
         </div>
-      </div>
+      </nav>
     </>
   );
 }

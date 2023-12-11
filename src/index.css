@@ -2,34 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-.size {@apply mx-auto w-10/12}
+.size {
+  @apply mx-auto w-10/12
+}
 
-.gradient-background {
-    height: 600px;
-     background: linear-gradient(62deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-       animation: gradient 15s ease infinite; 
-        background-size: 400% 400%;
-    
+.active {
+  @apply font-bold 
+}
+
+.common-bg{background-color: rgb(0, 149, 166);}
+
+.my-body-font {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  /* font-family: 'Work Sans', sans-serif; */
+}
+
+.mehedi-font {
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Rampart One', sans-serif;
+  /* font-family: 'Work Sans', sans-serif; */
+}
+
+
+
+/* ------------- navbar animation color ---------------- */
+.nav {
+  animation: colorChange 5s infinite alternate;
+}
+
+@keyframes colorChange {
+  0% {
+    @apply bg-[#020316]
   }
-  @-webkit-keyframes gradient{
-    0% {
-      background-position: 0 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-       background-position: 0% 50%;
-    }
+  50% {
+    background-color: rgb(0, 149, 166);
   }
-  @keyframes gradient{
-    0% {
-      background-position: 0 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-       background-position: 0% 50%;
-    }
-  }
+}
+
+/* ------------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================== pore dekhum ne start image shape =========== */
+

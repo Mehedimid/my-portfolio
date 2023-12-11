@@ -1,12 +1,16 @@
-import React from 'react';
+import React from "react";
+import Header from "./Header";
 
 function Home(props) {
-    return (
-        <>
-        <p className='text-4xl text-center font-bold my-20'>Portfolio is on working</p>
+  return (
+    <div className="flex flex-col   ">
+      
+      <div>
+        <Header></Header>
+      </div>
 
-        </>
-    );
+    </div>
+  );
 }
 
 export default Home;
