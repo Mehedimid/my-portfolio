@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import HomeProjectSection from "./HomeProjectSection";
 
 function Home(props) {
   return (
@@ -7,6 +8,10 @@ function Home(props) {
       
       <div>
         <Header></Header>
+      </div>
+
+      <div>
+        <HomeProjectSection></HomeProjectSection>
       </div>
 
     </div>

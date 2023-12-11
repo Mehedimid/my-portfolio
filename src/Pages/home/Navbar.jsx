@@ -4,11 +4,11 @@ import { Link, NavLink } from "react-router-dom";
 function Navbar(props) {
   const navlinks = (
     <>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/porjects">Projects</NavLink>
-      <NavLink to="/about">About</NavLink>
-      <NavLink to="/contact">Contact</NavLink>
-      <NavLink to="/">Resume</NavLink>
+      <NavLink className='hover:text-orange-300' to="/">Home</NavLink>
+      <NavLink className='hover:text-orange-300' to="/porjects">Projects</NavLink>
+      <NavLink className='hover:text-orange-300' to="/about">About</NavLink>
+      <NavLink className='hover:text-orange-300' to="/contact">Contact</NavLink>
+      <NavLink className='hover:text-orange-300' to="/">Resume</NavLink>
       {/* <NavLink to="/blog">Blog</NavLink> */}
     </>
   );

@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Shofor Pothe",
+        "subtitle": "Comprehensive Travel Guidance for Bangladesh",
+        "description": "Welcome to Shofor Pothe, an online platform offering comprehensive guidance for travelers exploring popular destinations in Bangladesh.",
+        "video": "https://www.example.com/intro-video.mp4",
+        "features": [
+          "Responsive Design: The website is optimized for mobile, tablet, and desktop browsing.",
+          "Navbar: Navigate easily through the site with a comprehensive navbar, including user-specific features upon login.",
+          "Tourism and Travel Guide Section: Explore destination overviews, available packages, and tour guide profiles.",
+          "Tour Type Section: Filter packages by tour type for personalized browsing.",
+          "Tourist Story Section: Engaging stories shared by travelers, each with its own detail page and social sharing capabilities.",
+          "Package Details Page: View detailed information about specific tour packages and book tours.",
+          "Authentication: Secure login and registration functionalities with social login options.",
+          "User Dashboards: Tailored dashboards for tourists, tour guides, and admins, providing relevant information and actions."
+        ],
+        "front-end": "React.js with React Router for smooth navigation and Tailwind CSS for stunning UI.",
+        "back-end": "using mongoDB, noteJs and express js."
+      },
+      {
+        "title": "Gizmo Genix",
+        "subtitle": "Innovative E-commerce Platform for Tech Enthusiasts",
+        "description": "GizmoGenix is an innovative E-commerce platform designed to provide tech enthusiasts with the latest and greatest technology and electronic products. From smartphones to laptops, from Google to Sony, we've got it all!",
+        "video": "https://www.example.com/intro-video.mp4",
+        "features": [
+          "Brand Showcase: Discover the top tech brands with detailed cards. Explore the world of Google, Apple, LG, Microsoft, Samsung, and Sony.",
+          "Interactive Quiz: Test your tech knowledge and win exciting gifts. Get ready for some brain-teasing fun!",
+          "Wide Product Range: We offer a wide variety of products, including phones, airpods, televisions, laptops, and more.",
+          "Product Pricing: Easily find the prices of your favorite tech gadgets and make informed decisions.",
+          "Authentication: Secure login and registration functionalities with social login options."
+        ],
+        "front-end": "React.js with React Router for smooth navigation and Tailwind CSS for stunning UI.",
+        "back-end": "using mongoDB, noteJs and express js."
+      }
+]

@@ -7,10 +7,9 @@
 }
 
 .active {
-  @apply font-bold 
+  @apply font-bold text-orange-300
 }
 
-/* Add this to your CSS file */
 
 .gradient-shadow {
   position: relative;
@@ -24,7 +23,6 @@
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  /* background: radial-gradient(circle, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 70%); */
   pointer-events: none;
   z-index: 1;
 }
@@ -38,7 +36,7 @@
 }
 
 .gradient-box-shadow {
-  box-shadow: 0 0 20px 0 rgba(255, 0, 0, 0.5), 0 0 40px 0 rgb(0, 149, 166); /* Adjust shadow colors and spread */
+  box-shadow: 0 0 20px 0 rgba(255, 0, 0, 0.5), 0 0 40px 0 rgb(0, 149, 166); 
 }
 
 /* #0095A6 */

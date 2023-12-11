@@ -32,7 +32,7 @@ function Header(props) {
                 </h1>
               </div>
 
-              <p className=" py-8 text-center md:text-start">
+              <p className=" py-8 text-center text-sm md:text-start">
                 I am a Passionate React developer eager to contribute and learn
                 in a collaborative team environment. Seeking opportunities to
                 apply skills in front-end development, collaborate with
