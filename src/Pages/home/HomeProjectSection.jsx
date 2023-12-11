@@ -8,7 +8,7 @@ function HomeProjectSection(props) {
     return (
         <section id='homeProjects'>
 
-            <div className="bg-black min-h-screen">
+            <div className="min-h-screen">
 
                 <h1 className="text-4xl text-white text-center">Latest Projects</h1>
 

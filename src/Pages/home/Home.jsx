@@ -11,7 +11,7 @@ function Home(props) {
       </div>
 
       <div>
-        <HomeProjectSection></HomeProjectSection>
+        {/* <HomeProjectSection></HomeProjectSection> */}
       </div>
 
     </div>
