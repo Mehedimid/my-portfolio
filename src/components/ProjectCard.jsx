@@ -7,18 +7,18 @@ function ProjectCard({ item }) {
 
   return (
     <div>
-      <div className="flex flex-col bg-black gap-5 md:flex-row border-4 border-white mx-auto md:w-10/12 mb-16 rounded-xl hover:border-sky-400">
+      <div className="flex flex-col bg-[#020316] gap-5  md:flex-row border-4 border-white shadow-slate-400 shadow-lg hover:shadow-sky-500 mx-auto md:w-10/12 mb-16 rounded-xl hover:border-sky-400">
         <div className="md:w-1/2">
-          <div>
-            <img src={image} alt="Shoes" />
+          <div className="shadow-lg  shadow-sky-500">
+            <img src={image} className="" />
           </div>
-          <div className="flex flex-col md:flex-row gap-2 justify-center my-5">
+          <div className="flex flex-col md:flex-row gap-2 justify-center my-6">
             <Link target="blank" to={liveLink} className="common-btn">live link</Link>
             <Link target="blank" to={codeLink} className="common-btn">Code link</Link>
           </div>
         </div>
 
-        <div className=" md:w-1/2 text-white  space-y-4">
+        <div className=" md:w-1/2 text-white p-2 space-y-4">
 
           <h2 className="font-bold text-2xl uppercase text-orange-300">
             {title}

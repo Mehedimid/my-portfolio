@@ -9,18 +9,19 @@ function Header(props) {
       <div className=" header py-28  text-white ">
         <div className="size flex flex-col-reverse lg:flex-row items-center gap-5 justify-center">
           <div className="lg:w-1/2 ">
-            <div className="mx-5">
+            <div className="md:mx-5">
               <div className="App text-4xl">
                 <h1
+                className=""
                   style={{
                     paddingTop: "5rem",
                     margin: "auto 0",
                     fontWeight: "normal",
                   }}>
                   HI, I'M MEHEDI! <br />
-                  <span style={{ color: "#0095A6", fontWeight: "bold" }}>
+                  <span className="text-3xl md:text-4xl" style={{ color: "#0095A6", fontWeight: "bold" }}>
                     <Typewriter
-                      words={["WEB DEVELOPER!", "JAVASCRIPT!", "REACT!"]}
+                      words={["PROGRAMMER","WEB DEVELOPER!", "JAVASCRIPT DEVELOPER!", "REACT DEVELOPER!"]}
                       loop={1500}
                       cursor
                       cursorStyle="_"

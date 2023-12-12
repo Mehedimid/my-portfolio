@@ -10,8 +10,8 @@ function Project(props) {
 
 
   return (
-    <>
-      <div className="pt-36 mb-12">
+    <div className="py-32">
+      <div className="">
          <Title>projects</Title>
       </div>
 
@@ -21,7 +21,7 @@ function Project(props) {
         }
       </div>
 
-    </>
+    </div>
   );
 }
 
