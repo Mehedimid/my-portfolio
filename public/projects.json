@@ -54,7 +54,7 @@
       ],
       "frontEnd": "React.js with React Router for smooth navigation and Tailwind CSS for stunning UI.",
       "backEnd": "using mongoDB, noteJs, and express js.",
-      "liveLink": "https://brand-assignment-10.web.app/",
-      "codeLink": "https://github.com/Mehedimid/gixmo-client"
+      "liveLink": "https://assignment-10-nu.vercel.app/",
+      "codeLink": "https://github.com/Mehedimid/assignment-10"
   }
 ]

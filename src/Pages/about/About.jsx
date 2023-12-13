@@ -94,7 +94,7 @@ function About(props) {
               <ul className="text-white font-normal text-sm lg:ml-10 space-y-2 py-2">
                 <li className="list-disc">
                   {" "}
-                  <span className="uppercase">age:</span> 26{" "}
+                  <span className="uppercase">age:</span> 24{" "}
                 </li>
                 <li className="list-disc">
                   {" "}
