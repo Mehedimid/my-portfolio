@@ -3,7 +3,15 @@ import Title from "../../components/Title";
 import me from "../../assets/me.png";
 import { Link } from "react-router-dom";
 import { FaCss3, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
-import { SiExpress, SiFacebook, SiGithub, SiLinkedin, SiMongodb, SiTailwindcss, SiTwitter } from "react-icons/si";
+import {
+  SiExpress,
+  SiFacebook,
+  SiGithub,
+  SiLinkedin,
+  SiMongodb,
+  SiTailwindcss,
+  SiTwitter,
+} from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { IoLogoFirebase } from "react-icons/io5";
 
@@ -28,20 +36,30 @@ function About(props) {
               YOU CAN FIND ME:
               <div className="my-5 grid grid-cols-2 gap-5">
                 <Link
-                  to="linkedin.com/in/mehedimid"
+                  target="blank"
+                  to="https://www.linkedin.com/in/mehedimid"
                   className="common-social-btn flex justify-center items-center gap-1">
                   <SiLinkedin />
                   LinkedIn
                 </Link>
-                <Link to="github.com/mehedimid" className="common-social-btn flex justify-center items-center gap-1">
+                <Link
+                  target="blank"
+                  to="https://www.github.com/mehedimid"
+                  className="common-social-btn flex justify-center items-center gap-1">
                   <SiGithub />
                   Github
                 </Link>
-                <Link to="facebook.com/mehedimid" className="common-social-btn flex justify-center items-center gap-1">
+                <Link
+                  target="blank"
+                  to="https://www.facebook.com/mehedimid"
+                  className="common-social-btn flex justify-center items-center gap-1">
                   <SiFacebook />
                   Facebook
                 </Link>
-                <Link to="twitter.com/mehedimid" className="common-social-btn flex justify-center items-center gap-1">
+                <Link
+                  target="blank"
+                  to="https://www.twitter.com/mehedimid"
+                  className="common-social-btn flex justify-center items-center gap-1">
                   <SiTwitter />
                   twitter
                 </Link>
@@ -98,55 +116,55 @@ function About(props) {
               SKILLS AND TECHNOLOGY:
               <div className="flex flex-wrap gap-5 p-5 uppercase text-sm">
                 <Link
-                  target="black"
+                  target="blanck"
                   to=""
                   className="btn  btn-warning btn-sm md:btn-md">
                   <FaHtml5 className="text-xl font-bold" /> html{" "}
                 </Link>
                 <Link
-                  target="black"
+                  target="blanck"
                   to=""
                   className="btn btn-warning btn-sm md:btn-md">
                   <FaCss3 className="text-xl font-bold" /> css{" "}
                 </Link>
                 <Link
-                  target="black"
+                  target="blanck"
                   to=""
                   className="btn btn-warning btn-sm md:btn-md">
                   <SiTailwindcss className="text-xl font-bold" /> tailwind{" "}
                 </Link>
                 <Link
-                  target="black"
+                  target="blanck"
                   to=""
                   className="btn btn-warning btn-sm md:btn-md">
                   <IoLogoJavascript className="text-xl font-bold" /> javascript
                 </Link>
                 <Link
-                  target="black"
+                  target="blanck"
                   to=""
                   className="btn btn-warning btn-sm md:btn-md">
                   <FaReact className="text-xl font-bold" /> react{" "}
                 </Link>
                 <Link
-                  target="black"
+                  target="blanck"
                   to=""
                   className="btn btn-warning btn-sm md:btn-md">
                   <IoLogoFirebase className="text-xl font-bold" /> firebase{" "}
                 </Link>
                 <Link
-                  target="black"
+                  target="blanck"
                   to=""
                   className="btn btn-warning btn-sm md:btn-md">
                   <FaNodeJs className="text-xl font-bold" /> node js
                 </Link>
                 <Link
-                  target="black"
+                  target="blanck"
                   to=""
                   className="btn btn-warning btn-sm md:btn-md">
                   <SiExpress className="text-xl font-bold" /> express js
                 </Link>
                 <Link
-                  target="black"
+                  target="blanck"
                   to="https://mongodb.com/"
                   className="btn btn-warning btn-sm md:btn-md">
                   <SiMongodb className="text-xl font-bold" /> mongodb

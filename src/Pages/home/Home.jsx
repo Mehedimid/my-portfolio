@@ -9,7 +9,7 @@ function Home(props) {
         <Header></Header>
       </div>
 
-      <div>{/* <HomeProjectSection></HomeProjectSection> */}</div>
+      <div><HomeProjectSection></HomeProjectSection></div>
 
 
     </div>

@@ -46,13 +46,13 @@ function Contact(props) {
           <Title>contact me</Title>
         </div>
 
-        <div className=" w-8/12 mx-auto">
+        <div className=" md:w-8/12 mx-auto">
           <form
             onSubmit={handleSubmit(onSubmit)}
             className="flex flex-col bg-[#020316] shadow-2xl shadow-[#0095A6] px-1 md:px-5 py-10"
           >
-            <h1 className="uppercase font-bold text-orange-300 text-3xl mb-5 ">
-              get touch  me?
+            <h1 className="uppercase font-bold text-orange-300 text-2xl mb-5 ">
+              get in touch with me?
             </h1>
             {/* name field  */}
             <input

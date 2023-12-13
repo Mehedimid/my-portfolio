@@ -5,7 +5,7 @@ function Navbar(props) {
   const navlinks = (
     <>
       <NavLink className='hover:text-orange-300 uppercase md:text-sm' to="/">Home</NavLink>
-      <NavLink className='hover:text-orange-300 uppercase md:text-sm' to="/porjects">Projects</NavLink>
+      <NavLink className='hover:text-orange-300 uppercase md:text-sm' to="/projects">Projects</NavLink>
       <NavLink className='hover:text-orange-300 uppercase md:text-sm' to="/about">About</NavLink>
       <NavLink className='hover:text-orange-300 uppercase md:text-sm' to="/contact">Contact</NavLink>
       <NavLink className='hover:text-orange-300 uppercase md:text-sm' to="https://drive.google.com/file/d/1UB__WSAVYjpEhlg6OFPIGwH0CeZadCWf/view?usp=sharing">Resume</NavLink>
