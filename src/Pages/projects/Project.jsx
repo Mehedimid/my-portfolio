@@ -12,7 +12,7 @@ function Project(props) {
   return (
     <div className="py-32">
       <div className="">
-         <Title>projects</Title>
+         <Title>my projects</Title>
       </div>
 
       <div>

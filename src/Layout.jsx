@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Pages/home/Navbar";
 import { Outlet } from "react-router-dom";
 import Footer from "./Pages/home/Footer";
+import HomeContact from "./Pages/home/HomeContact";
 
 function Layout(props) {
   return (
@@ -15,9 +16,17 @@ function Layout(props) {
           <Outlet></Outlet>
         </div>
 
+      
+        {/* personal info div  */}
+        <div>
+          <HomeContact></HomeContact>
+        </div>
+
+
         <div>
           <Footer></Footer>
         </div>
+        
       </div>
     </div>
   );
