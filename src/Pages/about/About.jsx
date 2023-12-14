@@ -17,13 +17,13 @@ import { IoLogoFirebase } from "react-icons/io5";
 
 function About(props) {
   return (
-    <div className="py-28">
+    <div className="py-28 text-white ">
       <div className="mb-16">
         {" "}
         <Title>about me</Title>
       </div>
 
-      <div className="min-h-screen flex gap-5 flex-col justify-center items-center md:flex-row lg:w-10/12 mx-auto ">
+      <div className=" flex gap-5 flex-col md:flex-row justify-center items-center  lg:w-10/12 mx-auto ">
         {/*=== left side div === */}
         <div className="md:w-1/2  ">
           <div className="flex justify-center items-center pb-5">
@@ -86,9 +86,9 @@ function About(props) {
 
           {/* education div  */}
           <div className="my-5 bg-[#020316] p-5 shadow shadow-sky-500">
-            <div className="text-sky-300 font-bold">
-              <h2 className="text-center text-xl">EDUCATION</h2>
-              <div className="text-white font-normal text-center text-sm space-y-2 py-2">
+            <div>
+              <h2 className="common-title">EDUCATION</h2>
+              <div className="font-normal text-center text-sm space-y-2 py-2">
                 <p className="text-lg my-3"> Under Graduation</p>
                 <p> BBA In Accounting, 4th year </p>
                 <p>National University, BANGLADESH,</p>

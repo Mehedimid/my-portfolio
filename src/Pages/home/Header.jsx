@@ -37,9 +37,9 @@ const generateAndDownloadPDF = () => {
           {/* content div  */}
           <div className="lg:w-1/2 ">
             <div className="md:mx-5">
-              <div className="App text-4xl">
+              <div className="App text-4xl text-center lg:text-start">
                 <h1
-                className="h-44"
+                className="h-52 md:h-44"
                   style={{
                     paddingTop: "5rem",
                     margin: "auto 0",
@@ -60,7 +60,7 @@ const generateAndDownloadPDF = () => {
                 </h1>
               </div>
 
-              <p className=" py-8 text-center text-sm md:text-start">
+              <p className=" py-8  text-sm ">
                 I am a Passionate React developer eager to contribute and learn
                 in a collaborative team environment. Seeking opportunities to
                 apply skills in front-end development, collaborate with
@@ -68,7 +68,7 @@ const generateAndDownloadPDF = () => {
                 projects. Open to mentorship and growth opportunities while
                 aiming to contribute meaningfully to the field.
               </p>
-              <div className="flex flex-col md:flex-row gap-5">
+              <div className="flex flex-col md:flex-row gap-5 justify-center lg:justify-start">
                 <button onClick={generateAndDownloadPDF}  className="common-btn uppercase">
                   {" "}
                   <span className="flex items-center">
