@@ -29,7 +29,7 @@
 
 
 /* -------------common -------------- */
-.common-social-btn {@apply rounded-full border-t-0 hover:animate-bounce border-4 px-4 py-2 border-sky-600 text-white}
+.common-social-btn {@apply rounded-full border-t-0 hover:text-xl border-4 px-4 py-2 border-sky-600 text-white}
 
 .common-input {@apply bg-[#020316] text-white border-[#0095A6] border-b-2  my-5 p-5}
 

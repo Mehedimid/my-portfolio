@@ -17,11 +17,11 @@ function ProjectCard({ item }) {
   return (
     <div>
       <div className="flex flex-col bg-[#020316] gap-5  md:flex-row border-4 border-white shadow-slate-400 shadow-lg hover:shadow-sky-500 mx-auto md:w-10/12 mb-16 rounded-xl hover:border-sky-400">
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 flex flex-col justify-center items-center md:p-5">
 
           {/* project image div  */}
-          <div className="shadow-lg  shadow-sky-500">
-            <img src={image} className="" />
+          <div className="shadow-lg  shadow-sky-500 ">
+            <img src={image} className="rounded" />
           </div>
 
           {/* button div  */}
@@ -31,7 +31,7 @@ function ProjectCard({ item }) {
           </div>
           
           {/* icons div  */}
-          <div className=" flex p-10 gap-3 flex-wrap">
+          <div className=" flex p-10 gap-3 flex-wrap justify-center items-center">
           <img src={icon1} className="w-8 h-6 md:w-16 md:h-12" />
           <img src={icon2} className="w-8 h-6 md:w-16 md:h-12" />
           <img src={icon3} className="w-8 h-6 md:w-16 md:h-12" />

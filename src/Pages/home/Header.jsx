@@ -1,5 +1,5 @@
 import { Typewriter } from "react-simple-typewriter";
-import me from "../../assets/me.png";
+import me from "../../assets/me3.png";
 import { RxArrowDown, RxGithubLogo } from "react-icons/rx";
 import { Link } from "react-router-dom";
 import jsPDF from "jspdf";
@@ -32,19 +32,21 @@ const generateAndDownloadPDF = () => {
   return (
     <>
       <div className=" header py-28  text-white ">
-        <div className="size flex flex-col-reverse lg:flex-row items-center gap-5 justify-center">
+        <div className="size flex flex-col-reverse lg:flex-row  gap-5  justify-center">
+
+          {/* content div  */}
           <div className="lg:w-1/2 ">
             <div className="md:mx-5">
               <div className="App text-4xl">
                 <h1
-                className=""
+                className="h-44"
                   style={{
                     paddingTop: "5rem",
                     margin: "auto 0",
                     fontWeight: "normal",
                   }}>
                   HI, I'M MEHEDI! <br />
-                  <span className="text-3xl md:text-4xl" style={{ color: "#0095A6", fontWeight: "bold" }}>
+                  <span className="text-3xl " style={{ color: "#0095A6", fontWeight: "bold" }}>
                     <Typewriter
                       words={["PROGRAMMER","WEB DEVELOPER!", "JAVASCRIPT DEVELOPER!", "REACT DEVELOPER!"]}
                       loop={1500}
@@ -84,16 +86,19 @@ const generateAndDownloadPDF = () => {
               </div>
             </div>
           </div>
-          <div className="lg:w-1/2 flex justify-center gradient-shadow">
+
+          {/* image div  */}
+          <div className="lg:w-1/2 md:mt-12 flex justify-center ">
             <div className="">
-              <div className=" gradient-box-shadow rounded-full">
+              <div className="">
                 <img
                   src={me}
-                  className="w-full h-full rounded-full bg-orange-300"
+                  className="w-96 h-96 object-cover border-4 shadow-xl shadow- shadow-[#0095A6] border-[#0095A6] rounded-full bg-gradient-to-t  from-[#020316]"
                 />
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </>

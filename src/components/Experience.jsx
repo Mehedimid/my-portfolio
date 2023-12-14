@@ -15,7 +15,7 @@ function Experience({ experience }) {
 
   return (
     <>
-     <div class="text-white border-4 border-orange-300 space-y-7 rounded-xl pb-5 shadow-xl shadow-sky-500 transition-transform transform hover:-translate-y-5">
+     <div class="text-white border-4 border-orange-300 space-y-7 brightness-90 rounded-xl pb-5 shadow-xl shadow-sky-500 transition-transform transform hover:brightness-105">
         <div>
           <img src={image} alt="" />
         </div>
