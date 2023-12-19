@@ -4,22 +4,33 @@ import { Link, NavLink } from "react-router-dom";
 function Navbar(props) {
   const navlinks = (
     <>
-      <NavLink className='hover:text-orange-300 uppercase md:text-sm' to="/">Home</NavLink>
-      <NavLink className='hover:text-orange-300 uppercase md:text-sm' to="/projects">Projects</NavLink>
-      <NavLink className='hover:text-orange-300 uppercase md:text-sm' to="/about">About</NavLink>
-      <NavLink className='hover:text-orange-300 uppercase md:text-sm' to="/contact">Contact</NavLink>
-      <NavLink className='hover:text-orange-300 uppercase md:text-sm' to="https://drive.google.com/file/d/1UB__WSAVYjpEhlg6OFPIGwH0CeZadCWf/view?usp=sharing">Resume</NavLink>
+      <NavLink className="hover:text-orange-300  md:text-sm" to="/">
+        Home
+      </NavLink>
+      <NavLink className="hover:text-orange-300  md:text-sm" to="/projects">
+        Projects
+      </NavLink>
+      <NavLink className="hover:text-orange-300  md:text-sm" to="/about">
+        About
+      </NavLink>
+      <NavLink className="hover:text-orange-300  md:text-sm" to="/contact">
+        Contact
+      </NavLink>
+      <NavLink
+        target="blank"
+        className="hover:text-orange-300  md:text-sm"
+        to="https://drive.google.com/file/d/13DdSM3Kcc1E-MPqD_twr4nEiCmmxIxF4/view?usp=drive_link">
+        Resume
+      </NavLink>
       {/* <NavLink to="/blog">Blog</NavLink> */}
     </>
   );
 
   return (
     <>
-     
-    <nav className="bg-[#020316] nav py-3 size  md:shadow-black shadow-lg  ">
+      <nav className="bg-[#020316] nav py-3 size  md:shadow-black shadow-lg  ">
         <div className="navbar my-nav-font  text-white ">
           <div className="navbar-start">
-
             {/* hidden and mobile icon */}
             <div className="dropdown">
               <div
@@ -42,7 +53,7 @@ function Navbar(props) {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm bg-black dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52">
+                className="menu menu-sm bg-black dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52 gap-2">
                 {navlinks}
               </ul>
             </div>

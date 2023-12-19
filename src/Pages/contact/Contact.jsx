@@ -88,9 +88,9 @@ function Contact(props) {
             {/* button field  */}
             <button
               type="submit"
-              className="bg-[#0095A6] p-4 uppercase font-bold text-black text-xl hover:bg-sky-400 "
+              className="bg-[#0095A6] p-4  font-bold text-black text-xl transition-all duration-300 hover:bg-sky-400 "
             >
-              send message
+              Send Message
             </button>
           </form>
         </div>

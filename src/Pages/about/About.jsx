@@ -29,15 +29,15 @@ function About(props) {
           <div className="flex justify-center items-center pb-5">
             <img
               src={me}
-              className="shadow-2xl shadow-sky-400 border-sky-500 border-4  border-b-8 rounded-xl bg-gradient-to-t  from-[#020316]"
+              className="shadow-md border-sky-500  border-b-8 rounded-xl bg-gradient-to-t  from-[#020316]"
             />
           </div>
 
           {/* social div  */}
-          <div className="my-5 bg-[#020316] p-5 shadow shadow-sky-500">
+          <div className="my-5 bg-[#020316] p-5 shadow shadow-sky-500 md:h-60">
             <div className="">
               <h2 className="text-sky-300 font-bold text-center text-xl py-2">YOU CAN FIND ME</h2>
-              <div className="my-5 grid grid-cols-2 gap-5">
+              <div className="my-5 grid grid-cols-2 gap-7 ">
                 <Link
                   target="blank"
                   to="https://www.linkedin.com/in/mehedimid"
@@ -64,7 +64,7 @@ function About(props) {
                   to="https://www.twitter.com/mehedimid"
                   className="common-social-btn flex justify-center items-center gap-1">
                   <SiTwitter />
-                  twitter
+                  Twitter
                 </Link>
               </div>
             </div>
