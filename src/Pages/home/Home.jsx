@@ -11,7 +11,6 @@ function Home(props) {
 
       <div><HomeProjectSection></HomeProjectSection></div>
 
-
     </div>
   );
 }

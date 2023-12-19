@@ -16,7 +16,7 @@ function ProjectCard({ item }) {
 
   return (
     <div>
-      <div className="flex flex-col bg-[#020316] gap-5  md:flex-row border-4 border-white shadow-slate-400 shadow-lg hover:shadow-sky-500 mx-auto md:w-10/12 mb-16 rounded-xl hover:border-sky-400">
+      <div className="flex flex-col bg-[#020316] gap-5  md:flex-row border-4 border-white  shadow-lg hover:shadow-sky-500 mx-auto md:w-10/12 mb-16 rounded-xl hover:border-sky-400 transition-all duration-200">
         <div className="md:w-1/2 flex flex-col justify-center items-center md:p-5">
 
           {/* project image div  */}
@@ -55,7 +55,7 @@ function ProjectCard({ item }) {
           <small className="font-medium text-sm text-slate-300">{description}</small>
 
           <div className=" ">
-            <span className="uppercase text-orange-300 font-semibold">features:</span>
+            <span className=" text-orange-300 font-semibold text-xl">Features:</span>
             <ul className="mx-2 md:mx-auto">
               {features?.map((feature, idx) => (
                 <li key={idx} className="text-xs list-disc py-1 text-slate-300">{feature}</li>
@@ -64,9 +64,9 @@ function ProjectCard({ item }) {
           </div>
 
           <div>
-            <p className="text-xl text-orange-300">FRONT END: <small className="text-slate-300">{frontEnd}</small></p>
+            <p className="text-xl text-orange-300">Front End: <small className="text-slate-300">{frontEnd}</small></p>
 
-            <p className="text-xl my-2 text-orange-300">BACK END: <small className="text-slate-300">{backEnd}</small></p>
+            <p className="text-xl my-2 text-orange-300">Back End: <small className="text-slate-300">{backEnd}</small></p>
           </div>
 
         </div>

@@ -15,16 +15,16 @@ function Experience({ experience }) {
 
   return (
     <>
-     <div class="text-white border-4 border-orange-300 space-y-7 brightness-90 rounded-xl pb-5 shadow-xl shadow-sky-500 transition-transform transform hover:brightness-105">
+     <div class="text-white border-4 border-orange-300 space-y-7 brightness-90 hover:brightness-100 rounded-xl pb-5 shadow-xl hover:shadow-sky-500  hover:-mt-2 transition-all duration-700 hover:mb-2" >
         <div>
           <img src={image} alt="" />
         </div>
 
-        <div className="h-28">
+        <div className="h-[85px]">
           <h1 className="font-bold text-2xl uppercase text-center text-orange-300">
             {title}
           </h1>
-          <h2 className="text-center my-1">
+          <h2 className="text-center text-sm mx-2 my-1">
             {subtitle}
           </h2>
  
@@ -35,7 +35,7 @@ function Experience({ experience }) {
             Live link
           </Link>
           <Link to={codeLink} className="common-btn text-center w-4/5 mx-auto my-1">
-            Live link
+            Code Link
           </Link>
         </div>
       </div>

@@ -32,7 +32,7 @@ const generateAndDownloadPDF = () => {
   return (
     <>
       <div className=" header py-28  text-white ">
-        <div className="size flex flex-col-reverse lg:flex-row  gap-5  justify-center">
+        <div className="size flex flex-col lg:flex-row  gap-5  justify-center">
 
           {/* content div  */}
           <div className="lg:w-1/2 ">
@@ -48,7 +48,7 @@ const generateAndDownloadPDF = () => {
                   HI, I'M MEHEDI! <br />
                   <span className="text-3xl " style={{ color: "#0095A6", fontWeight: "bold" }}>
                     <Typewriter
-                      words={["PROGRAMMER","WEB DEVELOPER!", "JAVASCRIPT DEVELOPER!", "REACT DEVELOPER!"]}
+                      words={["Programmer","Web Developer!", "Javascript Developer!", "React Developer!"]}
                       loop={1500}
                       cursor
                       cursorStyle="_"
@@ -93,7 +93,7 @@ const generateAndDownloadPDF = () => {
               <div className="">
                 <img
                   src={me}
-                  className="w-96 h-96 object-cover border-4 shadow-xl shadow- shadow-[#0095A6] border-[#0095A6] rounded-full bg-gradient-to-t  from-[#020316]"
+                  className="w-96 h-96 object-cover border-4 shadow-xl shadow- shadow-[#0095A6] border-[#0095A6] rounded-md md:rounded-full bg-gradient-to-t  from-[#020316]"
                 />
               </div>
             </div>

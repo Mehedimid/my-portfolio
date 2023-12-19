@@ -14,14 +14,14 @@
           "Authentication: Secure login and registration functionalities with social login options.",
           "User Dashboards: Tailored dashboards for tourists, tour guides, and admins, providing relevant information and actions."
       ],
-      "frontEnd": "React.js with React Router for smooth navigation and Tailwind CSS for stunning UI.",
-      "backEnd": "using mongoDB, noteJs, and express js.",
+      "frontEnd": "React Js with React Router for smooth navigation and Tailwind CSS for stunning UI.",
+      "backEnd": "using mongoDB, nodeJs, and express js.",
       "liveLink": "https://assignment-12-d99e7.web.app/",
       "codeLink": "https://github.com/Mehedimid/ShoforPothe_frontEnd"
   },
   {
       "title": "Skill Sync",
-      "subtitle": "Your Go-To Platform for Diverse Services and a Thriving Community of Service Providers",
+      "subtitle": "Platform for Diverse Services and a Thriving Community of Service Providers",
       "description": "Welcome to SkillSync, your go-to platform for diverse services and a thriving community of service providers. Explore a world of possibilities, from watching available services to booking and managing your own offerings.",
       "image": "https://i.postimg.cc/Y9ZXXzFp/skillsync.png",
       "features": [
@@ -35,8 +35,8 @@
           "Service Updates: Service providers can update booked services with ease.",
           "Authentication: Secure login and registration functionalities with social login options."
       ],
-      "frontEnd": "React.js with React Router for smooth navigation and Tailwind CSS for stunning UI.",
-      "backEnd": "using mongoDB, noteJs, and express js.",
+      "frontEnd": "React Js with React Router for smooth navigation and Tailwind CSS for stunning UI.",
+      "backEnd": "using mongoDB, nodeJs, and express js.",
       "liveLink": "https://a11-project-8d1ae.web.app/",
       "codeLink": "https://github.com/Mehedimid/skill-sync-11"
   },
@@ -52,8 +52,8 @@
           "Product Pricing: Easily find the prices of your favorite tech gadgets and make informed decisions.",
           "Authentication: Secure login and registration functionalities with social login options."
       ],
-      "frontEnd": "React.js with React Router for smooth navigation and Tailwind CSS for stunning UI.",
-      "backEnd": "using mongoDB, noteJs, and express js.",
+      "frontEnd": "React Js with React Router for smooth navigation and Tailwind CSS for stunning UI.",
+      "backEnd": "using mongoDB, nodeJs, and express js.",
       "liveLink": "https://assignment-10-nu.vercel.app/",
       "codeLink": "https://github.com/Mehedimid/assignment-10"
   }
