@@ -29,12 +29,12 @@ function About(props) {
           <div className="flex justify-center items-center pb-5">
             <img
               src={me}
-              className="shadow-md border-sky-500  border-b-8 rounded-xl bg-gradient-to-t  from-[#020316]"
+              className="shadow-md border-[#52D3D8]  border-b-8 rounded-xl bg-gradient-to-t  from-[#200E3A]"
             />
           </div>
 
           {/* social div  */}
-          <div className="my-5 bg-[#020316] p-5 shadow shadow-sky-500 md:h-60">
+          <div className="my-5 bg-[#200E3A] p-5 shadow shadow-[#52D3D8] md:h-60">
             <div className="">
               <h2 className="text-sky-300 font-bold text-center text-xl py-2">YOU CAN FIND ME</h2>
               <div className="my-5 grid grid-cols-2 gap-7 ">
@@ -85,7 +85,7 @@ function About(props) {
           </p>
 
           {/* education div  */}
-          <div className="my-5 bg-[#020316] p-5 shadow shadow-sky-500">
+          <div className="my-5 bg-[#200E3A] p-5 shadow shadow-[#52D3D8]">
             <div>
               <h2 className="common-title">EDUCATION</h2>
               <div className="font-normal text-center text-sm space-y-2 py-2">
@@ -98,62 +98,62 @@ function About(props) {
           </div>
 
           {/* skill div  */}
-          <div className="my-5 bg-[#020316] p-5 shadow shadow-sky-500">
+          <div className="my-5 bg-[#200E3A] p-5 shadow shadow-[#52D3D8]">
             <div className="text-sky-300 font-bold ">
               <h2 className="text-center text-xl">SKILLS AND TECHNOLOGY</h2>
               <div className="flex flex-wrap justify-center gap-5 p-5 uppercase text-sm">
                 <Link
                   target="blanck"
                   to=""
-                  className="btn  btn-warning btn-sm md:btn-md">
+                  className="btn  bg-[#3887BE] btn-sm md:btn-md">
                   <FaHtml5 className="text-xl font-bold" /> html{" "}
                 </Link>
                 <Link
                   target="blanck"
                   to=""
-                  className="btn btn-warning btn-sm md:btn-md">
+                  className="btn bg-[#3887BE] btn-sm md:btn-md">
                   <FaCss3 className="text-xl font-bold" /> css{" "}
                 </Link>
                 <Link
                   target="blanck"
                   to=""
-                  className="btn btn-warning btn-sm md:btn-md">
+                  className="btn bg-[#3887BE] btn-sm md:btn-md">
                   <SiTailwindcss className="text-xl font-bold" /> tailwind{" "}
                 </Link>
                 <Link
                   target="blanck"
                   to=""
-                  className="btn btn-warning btn-sm md:btn-md">
+                  className="btn bg-[#3887BE] btn-sm md:btn-md">
                   <IoLogoJavascript className="text-xl font-bold" /> javascript
                 </Link>
                 <Link
                   target="blanck"
                   to=""
-                  className="btn btn-warning btn-sm md:btn-md">
+                  className="btn bg-[#3887BE] btn-sm md:btn-md">
                   <FaReact className="text-xl font-bold" /> react{" "}
                 </Link>
                 <Link
                   target="blanck"
                   to=""
-                  className="btn btn-warning btn-sm md:btn-md">
+                  className="btn bg-[#3887BE] btn-sm md:btn-md">
                   <IoLogoFirebase className="text-xl font-bold" /> firebase{" "}
                 </Link>
                 <Link
                   target="blanck"
                   to=""
-                  className="btn btn-warning btn-sm md:btn-md">
+                  className="btn bg-[#3887BE] btn-sm md:btn-md">
                   <FaNodeJs className="text-xl font-bold" /> node js
                 </Link>
                 <Link
                   target="blanck"
                   to=""
-                  className="btn btn-warning btn-sm md:btn-md">
+                  className="btn bg-[#3887BE] btn-sm md:btn-md">
                   <SiExpress className="text-xl font-bold" /> express js
                 </Link>
                 <Link
                   target="blanck"
                   to="https://mongodb.com/"
-                  className="btn btn-warning btn-sm md:btn-md">
+                  className="btn bg-[#3887BE] btn-sm md:btn-md">
                   <SiMongodb className="text-xl font-bold" /> mongodb
                 </Link>
               </div>

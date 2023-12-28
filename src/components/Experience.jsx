@@ -15,7 +15,7 @@ function Experience({ experience }) {
 
   return (
     <>
-     <div class="text-white border-4 border-orange-300 space-y-7 brightness-90 hover:brightness-100 rounded-xl pb-5 shadow-xl hover:shadow-sky-500  hover:-mt-2 transition-all duration-700 hover:mb-2" >
+     <div class="text-white border-4 border-orange-300 space-y-7 brightness-90 hover:brightness-100 rounded-xl pb-5 shadow-xl hover:shadow-[#52D3D8]  hover:-mt-2 transition-all duration-700 hover:scale-105" >
         <div>
           <img src={image} alt="" />
         </div>
@@ -32,7 +32,7 @@ function Experience({ experience }) {
 
         <div className="flex flex-col">
           <Link to={liveLink} className="common-btn text-center w-4/5 mx-auto my-1">
-            Live link
+            Live Link
           </Link>
           <Link to={codeLink} className="common-btn text-center w-4/5 mx-auto my-1">
             Code Link

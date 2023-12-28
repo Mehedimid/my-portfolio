@@ -16,17 +16,17 @@ function ProjectCard({ item }) {
 
   return (
     <div>
-      <div className="flex flex-col bg-[#020316] gap-5  md:flex-row border-4 border-white  shadow-lg hover:shadow-sky-500 mx-auto md:w-10/12 mb-16 rounded-xl hover:border-sky-400 transition-all duration-200">
+      <div className="flex flex-col bg-[#200E3A] gap-5  md:flex-row border-4 border-white  shadow-lg hover:shadow-[#52D3D8] mx-auto md:w-10/12 mb-16 rounded-xl hover:border-[#52D3D8] transition-all duration-200">
         <div className="md:w-1/2 flex flex-col justify-center items-center md:p-5">
 
           {/* project image div  */}
-          <div className="shadow-lg  shadow-sky-500 ">
+          <div className="shadow-lg  shadow-[#52D3D8] ">
             <img src={image} className="rounded" />
           </div>
 
           {/* button div  */}
           <div className="flex flex-col md:flex-row gap-2 justify-center my-6">
-            <Link target="blank" to={liveLink} className="common-btn">live link</Link>
+            <Link target="blank" to={liveLink} className="common-btn">Live Link</Link>
             <Link target="blank" to={codeLink} className="common-btn">Code link</Link>
           </div>
           

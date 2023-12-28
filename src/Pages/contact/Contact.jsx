@@ -8,7 +8,7 @@ import Swal from "sweetalert2";
 emailjs.init("user_tOjMzuyWe2uGvO77H");
 
 function Contact(props) {
-  const { register, handleSubmit, reset } = useForm();
+  const { register, handleSubmit, reset, formState: { errors } } = useForm();
 
   const onSubmit = async (data) => {
     const templateParams = {
@@ -49,24 +49,27 @@ function Contact(props) {
         <div className=" md:w-8/12 mx-auto">
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="flex flex-col bg-[#020316] shadow-2xl shadow-[#0095A6] px-1 md:px-5 py-10"
+            className="flex flex-col bg-[#200E3A] shadow-2xl shadow-[#52D3D8] px-1 md:px-5 py-10"
           >
             <h1 className="uppercase font-bold text-orange-300 text-2xl mb-5 ">
               get in touch with me?
             </h1>
             {/* name field  */}
             <input
-              {...register("name")}
+              {...register("name",{ required:"Name is required"})}
               placeholder="Your Name"
               className="common-input"
             />
+            {errors.name && <p role="alert" className="text-red-400">{errors?.name?.message}</p>}
+            
 
             {/* email field  */}
             <input
-              {...register("email")}
+              {...register("email",{ required:"Email Address is required"})}
               placeholder="Your Email"
               className="common-input"
             />
+            {errors.email && <p role="alert" className="text-red-400">{errors?.email?.message}</p>}
 
             {/* phone number field  */}
             <input
@@ -80,15 +83,16 @@ function Contact(props) {
               name="message"
               cols="30"
               rows="5"
-              {...register("message")}
+              {...register("message",{ required:"Message is required"})}
               placeholder="Message"
               className="common-input"
             ></textarea>
+            {errors.message && <p role="alert" className="text-red-400">{errors?.message?.message}</p>}
 
             {/* button field  */}
             <button
               type="submit"
-              className="bg-[#0095A6] p-4  font-bold text-black text-xl transition-all duration-300 hover:bg-sky-400 "
+              className="bg-[#52D3D8] p-4  font-bold text-black text-xl transition-all duration-300 hover:bg-sky-400 "
             >
               Send Message
             </button>

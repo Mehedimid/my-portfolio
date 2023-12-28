@@ -28,7 +28,7 @@ function Navbar(props) {
 
   return (
     <>
-      <nav className="bg-[#020316] nav py-3 size  md:shadow-black shadow-lg  ">
+      <nav className="bg-[#200E3A] nav py-3 size  md:shadow-black shadow-lg  ">
         <div className="navbar my-nav-font  text-white ">
           <div className="navbar-start">
             {/* hidden and mobile icon */}

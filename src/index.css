@@ -31,17 +31,17 @@
 /* -------------common -------------- */
 .common-title{@apply text-center text-xl text-sky-300 font-bold}
 
-.common-social-btn {@apply rounded-full border-t-0 hover:text-xl border-4 px-4 py-2 border-sky-600 text-white transition-all duration-500}
+.common-social-btn {@apply rounded-full border-t-0 hover:scale-110 border-4 px-4 py-2 border-[#52D3D8] text-white transition-all duration-300}
 
-.common-input {@apply bg-[#020316] text-white border-[#0095A6] border-b-2  my-5 p-5}
+.common-input {@apply bg-[#200E3A] text-white border-[#52D3D8] border-b-2  my-5 p-5}
 
-.common-btn{@apply px-5 py-3 shadow-xl  shadow-black font-semibold hover:bg-sky-400 text-base bg-[#0095A6] text-black hover:text-black transition-all duration-300}
+.common-btn{@apply px-5 py-3 shadow-xl  shadow-black font-semibold hover:bg-[#3887BE] text-base bg-[#52D3D8] text-black hover:text-black transition-all duration-300}
 
-.common-bg{background-color: rgb(0, 149, 166);}
+.common-bg{background-color: rgb(82,211,216);}
 
-.common-bg2{@apply bg-[#020316]}
+.common-bg2{@apply bg-[#200E3A]}
 
-/* #0095A6 */
+/* #52D3D8 */
 /* --------------------------------------- */
 
 .gradient-border {
@@ -51,7 +51,7 @@
 }
 
 .gradient-box-shadow {
-  box-shadow: 0 0 20px 0 rgba(255, 0, 0, 0.5), 0 0 40px 0 rgb(0, 149, 166); 
+  box-shadow: 0 0 20px 0 rgba(255, 0, 0, 0.5), 0 0 40px 0 rgb(82,211,216); 
 }
 
 
@@ -82,7 +82,9 @@ font-family: 'Rampart One', sans-serif;
 }
  /* ------------------------------------------------------------- */
 
-
+.my-bg{
+  background-image: url("./assets/bg.svg");
+}
 
 
 /* ------------- navbar animation color ---------------- */
@@ -92,19 +94,19 @@ font-family: 'Rampart One', sans-serif;
 
 @keyframes colorChange {
   0% {
-    @apply bg-[#020316]
+    @apply bg-[#200E3A]
   }
   25% {
-    @apply bg-[#020316]
+    @apply bg-[#200E3A]
   }
   50% {
-    @apply bg-[#0095A6];
+    @apply bg-[#38419D];
   }
   75% {
-    @apply bg-[#020316]
+    @apply bg-[#200E3A]
   }
   100% {
-    @apply bg-[#020316]
+    @apply bg-[#200E3A]
   }
 }
 

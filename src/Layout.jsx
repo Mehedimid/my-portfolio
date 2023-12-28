@@ -4,9 +4,12 @@ import { Outlet } from "react-router-dom";
 import Footer from "./Pages/home/Footer";
 import HomeContact from "./Pages/home/HomeContact";
 
+
 function Layout(props) {
-  return (
-    <div className="bg-black  bg-gradient-to-r from-slate-800 my-body-font ">
+  
+
+  return (<>
+      <div className="my-body-font my-bg">
       <div>
         <div className="fixed w-full z-10">
           <Navbar></Navbar>
@@ -29,7 +32,10 @@ function Layout(props) {
         
       </div>
     </div>
+  </>
+
   );
 }
 
 export default Layout;
+// bg-black  bg-gradient-to-r from-slate-800 
