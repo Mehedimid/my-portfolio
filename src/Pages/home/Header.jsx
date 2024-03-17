@@ -45,7 +45,7 @@ function Header(props) {
                 aiming to contribute meaningfully to the field.
               </p>
               <div className="flex flex-col md:flex-row gap-5 justify-center lg:justify-start">
-                <a href="/MehediHasan.pdf" download className="common-btn ">
+                <a href="/Frontend_resume_mh_8_3_24.pdf" download className="common-btn ">
                   <span className="flex items-center">
                     Download Resume <RxArrowDown className="text-xl" />{" "}
                   </span>

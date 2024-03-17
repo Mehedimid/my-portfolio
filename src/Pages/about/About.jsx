@@ -14,6 +14,7 @@ import {
 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { IoLogoFirebase } from "react-icons/io5";
+import { TbBrandNextjs } from "react-icons/tb";
 
 function About(props) {
   return (
@@ -106,55 +107,67 @@ function About(props) {
                   target="blanck"
                   to=""
                   className="btn  bg-[#3887BE] btn-sm md:btn-md">
-                  <FaHtml5 className="text-xl font-bold" /> html{" "}
+                  <FaHtml5 className="text-xl font-bold" /> HTML{" "}
                 </Link>
                 <Link
                   target="blanck"
                   to=""
                   className="btn bg-[#3887BE] btn-sm md:btn-md">
-                  <FaCss3 className="text-xl font-bold" /> css{" "}
+                  <FaCss3 className="text-xl font-bold" /> CSS{" "}
                 </Link>
                 <Link
                   target="blanck"
                   to=""
                   className="btn bg-[#3887BE] btn-sm md:btn-md">
-                  <SiTailwindcss className="text-xl font-bold" /> tailwind{" "}
+                  <SiTailwindcss className="text-xl font-bold" /> TailwindCss{" "}
                 </Link>
                 <Link
                   target="blanck"
                   to=""
                   className="btn bg-[#3887BE] btn-sm md:btn-md">
-                  <IoLogoJavascript className="text-xl font-bold" /> javascript
+                  <IoLogoJavascript className="text-xl font-bold" /> javaScript
                 </Link>
                 <Link
                   target="blanck"
                   to=""
                   className="btn bg-[#3887BE] btn-sm md:btn-md">
-                  <FaReact className="text-xl font-bold" /> react{" "}
+                  <FaReact className="text-xl font-bold" /> ReactJS{" "}
                 </Link>
                 <Link
                   target="blanck"
                   to=""
                   className="btn bg-[#3887BE] btn-sm md:btn-md">
-                  <IoLogoFirebase className="text-xl font-bold" /> firebase{" "}
+                  <TbBrandNextjs className="text-xl font-bold" /> NextJs{" "}
                 </Link>
                 <Link
                   target="blanck"
                   to=""
                   className="btn bg-[#3887BE] btn-sm md:btn-md">
-                  <FaNodeJs className="text-xl font-bold" /> node js
+                  <IoLogoFirebase className="text-xl font-bold" /> Firebase{" "}
                 </Link>
                 <Link
                   target="blanck"
                   to=""
                   className="btn bg-[#3887BE] btn-sm md:btn-md">
-                  <SiExpress className="text-xl font-bold" /> express js
+                  <FaNodeJs className="text-xl font-bold" /> Node js
+                </Link>
+                <Link
+                  target="blanck"
+                  to=""
+                  className="btn bg-[#3887BE] btn-sm md:btn-md">
+                  <SiExpress className="text-xl font-bold" /> Express js
                 </Link>
                 <Link
                   target="blanck"
                   to="https://mongodb.com/"
                   className="btn bg-[#3887BE] btn-sm md:btn-md">
-                  <SiMongodb className="text-xl font-bold" /> mongodb
+                  <SiMongodb className="text-xl font-bold" /> Mongodb
+                </Link>
+                <Link
+                  target="blanck"
+                  to="https://mongoosejs.com/"
+                  className="btn bg-[#3887BE] btn-sm md:btn-md">
+                  <SiMongodb className="text-xl font-bold" /> Mongoose
                 </Link>
               </div>
             </div>

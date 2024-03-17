@@ -16,12 +16,12 @@ function ProjectCard({ item }) {
 
   return (
     <div>
-      <div className="flex flex-col bg-[#200E3A] gap-5  md:flex-row border-4 border-white  shadow-lg hover:shadow-[#52D3D8] mx-auto md:w-10/12 mb-16 rounded-xl hover:border-[#52D3D8] transition-all duration-200">
+      <div className="flex flex-col bg-[#200E3A] gap-5  md:flex-row justify-center items-center border-4 border-white  shadow-lg hover:shadow-[#52D3D8] mx-auto md:w-10/12 mb-16 rounded-xl hover:border-[#52D3D8] transition-all duration-200">
         <div className="md:w-1/2 flex flex-col justify-center items-center md:p-5">
 
           {/* project image div  */}
           <div className="shadow-lg  shadow-[#52D3D8] ">
-            <img src={image} className="rounded" />
+            <img src={image} className="rounded w-full md:w-96" />
           </div>
 
           {/* button div  */}

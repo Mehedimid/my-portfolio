@@ -41,15 +41,15 @@ function Contact(props) {
 
   return (
     <>
-      <div className="py-28 size">
+      <div className="py-28 w-11/12 mx-auto">
         <div>
           <Title>contact me</Title>
         </div>
 
-        <div className=" md:w-8/12 mx-auto">
+        <div className=" md:w-8/12 lg:w-[600px] mx-auto ">
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="flex flex-col bg-[#200E3A] shadow-2xl shadow-[#52D3D8] px-1 md:px-5 py-10"
+            className="flex flex-col bg-[#200E3A] shadow-2xl shadow-[#52D3D8] p-3 md:px-5 py-10 lg:p-10"
           >
             <h1 className="uppercase font-bold text-orange-300 text-2xl mb-5 ">
               get in touch with me?

@@ -1,60 +1,74 @@
 [
-  {
-      "title": "Shofor Pothe",
-      "subtitle": "Comprehensive Travel Guidance for Bangladesh",
-      "description": "Welcome to Shofor Pothe, an online platform offering comprehensive guidance for travelers exploring popular destinations in Bangladesh.",
-      "image": "https://i.postimg.cc/TwcbjJg4/shofor-pothe.png",
-      "features": [
-          "Responsive Design: The website is optimized for mobile, tablet, and desktop browsing.",
-          "Navbar: Navigate easily through the site with a comprehensive navbar, including user-specific features upon login.",
-          "Tourism and Travel Guide Section: Explore destination overviews, available packages, and tour guide profiles.",
-          "Tour Type Section: Filter packages by tour type for personalized browsing.",
-          "Tourist Story Section: Engaging stories shared by travelers, each with its own detail page and social sharing capabilities.",
-          "Package Details Page: View detailed information about specific tour packages and book tours.",
-          "Authentication: Secure login and registration functionalities with social login options.",
-          "User Dashboards: Tailored dashboards for tourists, tour guides, and admins, providing relevant information and actions."
-      ],
-      "frontEnd": "React Js with React Router for smooth navigation and Tailwind CSS for stunning UI.",
-      "backEnd": "using mongoDB, nodeJs, and express js.",
-      "liveLink": "https://assignment-12-d99e7.web.app/",
-      "codeLink": "https://github.com/Mehedimid/ShoforPothe_frontEnd"
-  },
-  {
-      "title": "Skill Sync",
-      "subtitle": "Platform for Diverse Services and a Thriving Community of Service Providers",
-      "description": "Welcome to SkillSync, your go-to platform for diverse services and a thriving community of service providers. Explore a world of possibilities, from watching available services to booking and managing your own offerings.",
-      "image": "https://i.postimg.cc/Y9ZXXzFp/skillsync.png",
-      "features": [
-          "Discover Services: Explore a variety of services on our home page, enriched with detailed information about service providers.",
-          "Browse All Services: Check out the complete catalog of services on the 'All Services' page.",
-          "Book Services: Easily book services after reviewing detailed information on specific service detail pages.",
-          "Manage Bookings: View and manage your booked services on the 'My Bookings' page.",
-          "Add Your Services: Contribute to our vibrant community by adding your own services on the 'Add a Service' page.",
-          "Pending Services: Keep track of services booked by other users on the 'My Pending' page.",
-          "Service Management: Delete or update your services based on your evolving needs.",
-          "Service Updates: Service providers can update booked services with ease.",
-          "Authentication: Secure login and registration functionalities with social login options."
-      ],
-      "frontEnd": "React Js with React Router for smooth navigation and Tailwind CSS for stunning UI.",
-      "backEnd": "using mongoDB, nodeJs, and express js.",
-      "liveLink": "https://skill-sync1.surge.sh",
-      "codeLink": "https://github.com/Mehedimid/skill-sync-11"
-  },
-  {
-      "title": "Gizmo Genix",
-      "subtitle": "Innovative E-commerce Platform for Tech Enthusiasts",
-      "description": "GizmoGenix is an innovative E-commerce platform designed to provide tech enthusiasts with the latest and greatest technology and electronic products. From smartphones to laptops, from Google to Sony, we've got it all!",
-      "image": "https://i.postimg.cc/ZR7HWFH8/gizmo.png",
-      "features": [
-          "Brand Showcase: Discover the top tech brands with detailed cards. Explore the world of Google, Apple, LG, Microsoft, Samsung, and Sony.",
-          "Interactive Quiz: Test your tech knowledge and win exciting gifts. Get ready for some brain-teasing fun!",
-          "Wide Product Range: We offer a wide variety of products, including phones, airpods, televisions, laptops, and more.",
-          "Product Pricing: Easily find the prices of your favorite tech gadgets and make informed decisions.",
-          "Authentication: Secure login and registration functionalities with social login options."
-      ],
-      "frontEnd": "React Js with React Router for smooth navigation and Tailwind CSS for stunning UI.",
-      "backEnd": "using mongoDB, nodeJs, and express js.",
-      "liveLink": "https://assignment-10-nu.vercel.app/",
-      "codeLink": "https://github.com/Mehedimid/assignment-10"
-  }
-]
+    {
+        "title": "Shofor Pothe",
+        "subtitle": "Comprehensive Travel Guidance for Bangladesh",
+        "description": "Welcome to Shofor Pothe, an online platform offering comprehensive guidance for travelers exploring popular destinations in Bangladesh.",
+        "image": "https://i.postimg.cc/TwcbjJg4/shofor-pothe.png",
+        "features": [
+            "Responsive Design: The website is optimized for mobile, tablet, and desktop browsing.",
+            "Navbar: Navigate easily through the site with a comprehensive navbar, including user-specific features upon login.",
+            "Tourism and Travel Guide Section: Explore destination overviews, available packages, and tour guide profiles.",
+            "Tour Type Section: Filter packages by tour type for personalized browsing.",
+            "Package Details Page: View detailed information about specific tour packages and book tours.",
+            "Authentication: Secure login and registration functionalities with social login options.",
+            "User Dashboards: Tailored dashboards for tourists, tour guides, and admins, providing relevant information and actions."
+        ],
+        "frontEnd": "React Js with React Router for smooth navigation and Tailwind CSS for stunning UI.",
+        "backEnd": "using mongoDB, nodeJs, and express js.",
+        "liveLink": "https://assignment-12-d99e7.web.app/",
+        "codeLink": "https://github.com/Mehedimid/ShoforPothe_frontEnd"
+    },
+    {
+        "title": "Skill Sync",
+        "subtitle": "Platform for Diverse Services and a Thriving Community of Service Providers",
+        "description": "Welcome to SkillSync, your go-to platform for diverse services and a thriving community of service providers. Explore a world of possibilities, from watching available services to booking and managing your own offerings.",
+        "image": "https://i.postimg.cc/Y9ZXXzFp/skillsync.png",
+        "features": [
+            "Discover Services: Explore a variety of services on our home page, enriched with detailed information about service providers.",
+            "Book Services: Easily book services after reviewing detailed information on specific service detail pages.",
+            "Manage Bookings: View and manage your booked services on the 'My Bookings' page.",
+            "Add Your Services: Contribute to our vibrant community by adding your own services on the 'Add a Service' page.",
+            "Pending Services: Keep track of services booked by other users on the 'My Pending' page.",
+            "Service Updates: Service providers can update booked services with ease.",
+            "Authentication: Secure login and registration functionalities with social login options."
+        ],
+        "frontEnd": "React Js with React Router for smooth navigation and Tailwind CSS for stunning UI.",
+        "backEnd": "using mongoDB, nodeJs, and express js.",
+        "liveLink": "https://skill-sync1.surge.sh",
+        "codeLink": "https://github.com/Mehedimid/skill-sync-11"
+    },
+    {
+        "title": "Quick Fit",
+        "subtitle": "A Team project on Health and Fitnes platform for users",
+        "description": "Quick Fit is dedicated to providing a comprehensive platform that caters to all aspects of health and fitness. Our mission is to empower individuals to lead healthier lifestyles through curated content, personalized experiences, and a supportive community.",
+        "image": "https://i.postimg.cc/ZYBkRTVP/quickfit-cover.png",
+        "features": [
+            "Eshop: The Eshop section aims to provide users with an interactive platform for purchasing health-related products. [Eshop](https://quick-fit-client.vercel.app/eshop)",
+            "Fitness Tracker: The Fitness Tracker allows users to track their exercise progress and view their daily achievements. [Tracker](https://quick-fit-client.vercel.app/tracker)",
+            "Category Articles: In the home page User can see the category section. Users can explore health-related articles categorized by topics and purchase relevant books. [Category & articles](https://quick-fit-client.vercel.app/category/Cardio)",
+            "Blogs Section: Users can engage with health-related articles presented as news stories and monthly posts, with features like liking, commenting, and adding bookmarks. [Blog](a recipe blog)",
+            "Admin Dashboard Product Section: Allows admin to analyze product sales and other data.",
+            "Courses Section: In the Courses section, users can explore various educational modules, view course details, and engage in interactive quizzes to assess their understanding."
+        ],
+        "frontEnd": "Next.js for server-side rendering, Tailwind CSS for styling, Framer Motion for animations, Firebase for authentication and real-time database functionality.",
+        "backEnd": "MongoDB, Node.js, Express.js",
+        "liveLink": "https://quick-fit-client.vercel.app/",
+        "codeLink": "https://github.com/Reduan4u/QuickFit-Client"
+    },    
+    {
+        "title": "TaskJET",
+        "subtitle": "Task Management Website for Students",
+        "description": " TaskJET is a task management website tailored exclusively for students, aimed at enhancing productivity, reducing stress, and facilitating a smoother academic journey. Our platform offers intuitive features to help students organize their tasks efficiently. From assignment deadlines to exam schedules, TaskJET ensures no task is overlooked, empowering students to stay on top of their academic commitments. With TaskJET, students can bid farewell to the chaos of disorganization and embrace a structured approach to task management. ",
+        "image": "https://i.postimg.cc/WpFN2q9b/taskjet.png",
+        "features": [
+            "User authentication with Firebase",
+            "Responsive design for both desktop and mobile devices",
+            "Task management with options to add, edit, and mark tasks as ongoing or completed"
+        ],
+        "frontEnd": "React, Tailwind CSS, Firebase (Authentication)",
+        "backEnd": "Node.js, Express.js, MongoDB",
+        "liveLink": "https://taskjet-36f09.web.app/",
+        "codeLink": "https://github.com/Mehedimid/Task-Jet-Client"
+    }
+  ]
+  

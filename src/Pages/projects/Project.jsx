@@ -5,12 +5,9 @@ import ProjectCard from "../../components/ProjectCard";
 
 function Project(props) {
     const [projects] = useProjects()
-    console.log(projects)
-
-
 
   return (
-    <div className="py-32">
+    <div className="py-32 w-11/12 mx-auto">
       <div className="">
          <Title>my projects</Title>
       </div>

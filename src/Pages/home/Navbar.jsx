@@ -19,7 +19,7 @@ function Navbar(props) {
       <NavLink
         target="blank"
         className="hover:text-orange-300  md:text-sm"
-        to="https://drive.google.com/file/d/13DdSM3Kcc1E-MPqD_twr4nEiCmmxIxF4/view?usp=drive_link">
+        to="https://drive.google.com/file/d/10JvHOP_er4AuoosGJwYZi81XZZnygEgt/view?usp=sharing">
         Resume
       </NavLink>
       {/* <NavLink to="/blog">Blog</NavLink> */}

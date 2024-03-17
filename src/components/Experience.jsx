@@ -6,18 +6,15 @@ function Experience({ experience }) {
     title,
     subtitle,
     image,
-    features,
-    frontEnd,
-    backEnd,
     liveLink,
     codeLink,
   } = experience;
 
   return (
     <>
-     <div class="text-white border-4 border-orange-300 space-y-7 brightness-90 hover:brightness-100 rounded-xl pb-5 shadow-xl hover:shadow-[#52D3D8]  hover:-mt-2 transition-all duration-700 hover:scale-105" >
+     <div class="text-white border-4 border-orange-300 space-y-7 brightness-90 hover:brightness-100 rounded-xl pb-5 shadow-lg hover:shadow-[#52D3D8]  hover:-mt-2 transition-all duration-700 n" >
         <div>
-          <img src={image} alt="" />
+          <img src={image}  className="w-full h-48 object-cover"/>
         </div>
 
         <div className="h-[85px]">
