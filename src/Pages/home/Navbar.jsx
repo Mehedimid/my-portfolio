@@ -1,25 +1,24 @@
-import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
-function Navbar(props) {
+function Navbar() {
   const navlinks = (
     <>
-      <NavLink className="hover:text-orange-300  md:text-sm" to="/">
+      <NavLink className="hover:text-orange-300 transition md:text-sm" to="/">
         Home
       </NavLink>
-      <NavLink className="hover:text-orange-300  md:text-sm" to="/projects">
+      <NavLink className="hover:text-orange-300 transition md:text-sm" to="/projects">
         Projects
       </NavLink>
-      <NavLink className="hover:text-orange-300  md:text-sm" to="/about">
-        About
+      <NavLink className="hover:text-orange-300 transition md:text-sm" to="/about">
+        About me
       </NavLink>
-      <NavLink className="hover:text-orange-300  md:text-sm" to="/contact">
+      <NavLink className="hover:text-orange-300 transition md:text-sm" to="/contact">
         Contact
       </NavLink>
       <NavLink
         target="blank"
         className="hover:text-orange-300  md:text-sm"
-        to="https://drive.google.com/file/d/10JvHOP_er4AuoosGJwYZi81XZZnygEgt/view?usp=sharing">
+        to="https://drive.google.com/file/d/1OaOH4qDJHh4N4VqG0wpHVqmnsuvbmOXJ/view?usp=sharing">
         Resume
       </NavLink>
       {/* <NavLink to="/blog">Blog</NavLink> */}
@@ -59,8 +58,8 @@ function Navbar(props) {
             </div>
             <Link
               to="/"
-              className="btn btn-ghost text-3xl mehedi-font font-bold ">
-              Mehedimid
+              className="text-3xl mehedi-font font-bold ">
+              Mehedi Hasan
             </Link>
           </div>
 

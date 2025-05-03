@@ -16,8 +16,8 @@ function ProjectCard({ item }) {
 
   return (
     <div>
-      <div className="flex flex-col bg-[#200E3A] gap-5  md:flex-row justify-center items-center border-4 border-white  shadow-lg hover:shadow-[#52D3D8] mx-auto md:w-10/12 mb-16 rounded-xl hover:border-[#52D3D8] transition-all duration-200">
-        <div className="md:w-1/2 flex flex-col justify-center items-center md:p-5">
+      <div className="flex flex-col bg-[#200E3A] gap-5  lg:flex-row justify-center items-center border-4 border-white  shadow-lg hover:shadow-[#52D3D8] mx-auto md:w-10/12 mb-16 rounded-xl hover:border-[#52D3D8] transition-all duration-200">
+        <div className="lg:w-1/2 flex flex-col justify-center items-center md:p-5">
 
           {/* project image div  */}
           <div className="shadow-lg  shadow-[#52D3D8] ">
@@ -25,7 +25,7 @@ function ProjectCard({ item }) {
           </div>
 
           {/* button div  */}
-          <div className="flex flex-col md:flex-row gap-2 justify-center my-6">
+          <div className="flex flex-wrap flex-row gap-2 lg:justify-center my-6">
             <Link target="blank" to={liveLink} className="common-btn">Live Link</Link>
             <Link target="blank" to={codeLink} className="common-btn">Code link</Link>
           </div>
@@ -46,15 +46,15 @@ function ProjectCard({ item }) {
         </div>
        
        {/* content div  */}
-        <div className=" md:w-1/2 text-white p-2 space-y-4">
+        <div className=" lg:w-1/2 text-white p-2 space-y-4">
 
-          <h2 className="font-bold text-2xl uppercase text-orange-300">
+          <h2 className="font-bold text-2xl capitalize text-orange-300">
             {title}
           </h2>
 
           <small className="font-medium text-sm text-slate-300">{description}</small>
 
-          <div className=" ">
+          <div className="hidden md:block">
             <span className=" text-orange-300 font-semibold text-xl">Features:</span>
             <ul className="mx-2 md:mx-auto">
               {features?.map((feature, idx) => (

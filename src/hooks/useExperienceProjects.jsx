@@ -1,11 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react'
 
-function useProjects() {
-
+const useExperienceProjects = () => {
     const [projects, setProjects] = useState(null)
 
     useEffect( ()=>{
-       fetch('projects.json')
+       fetch('experience.json')
        .then(res=>res.json())
        .then(data=>setProjects(data))
     },[])
@@ -13,4 +12,4 @@ function useProjects() {
     return [projects]
 }
 
-export default useProjects;
+export default useExperienceProjects

@@ -29,7 +29,7 @@
 
 
 /* -------------common -------------- */
-.common-title{@apply text-center text-xl text-sky-300 font-bold}
+.common-title{@apply text-center text-xl text-sky-300 font-bold capitalize}
 
 .common-social-btn {@apply rounded-full border-t-0 hover:scale-110 border-4 px-4 py-2 border-[#52D3D8] text-white transition-all duration-300}
 

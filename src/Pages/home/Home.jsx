@@ -1,8 +1,7 @@
-import React from "react";
 import Header from "./Header";
 import HomeProjectSection from "./HomeProjectSection";
 
-function Home(props) {
+function Home() {
   return (
     <div className="flex flex-col   ">
       <div>

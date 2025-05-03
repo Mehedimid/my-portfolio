@@ -1,13 +1,11 @@
-import React from "react";
 import Navbar from "./Pages/home/Navbar";
 import { Outlet } from "react-router-dom";
 import Footer from "./Pages/home/Footer";
 import HomeContact from "./Pages/home/HomeContact";
 
 
-function Layout(props) {
+function Layout() {
   
-
   return (<>
       <div className="my-body-font my-bg">
       <div>

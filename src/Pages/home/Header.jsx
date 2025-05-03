@@ -21,10 +21,10 @@ function Header(props) {
                     margin: "auto 0",
                     fontWeight: "normal",
                   }}>
-                  HI, I'M MEHEDI! <br />
+                  Hi, I am Mehedi! <br />
                   <span className="text-3xl " style={{ color: "#52D3D8", fontWeight: "bold" }}>
                     <Typewriter
-                      words={["Programmer","Web Developer!", "Javascript Developer!", "React Developer!"]}
+                      words={["programmer!","Full Stack Developer!","Mern Stack Developer!", "Javascript Developer!", "NextJs Developer!"]}
                       loop={1500}
                       cursor
                       cursorStyle="_"
@@ -50,7 +50,7 @@ function Header(props) {
                     Download Resume <RxArrowDown className="text-xl" />{" "}
                   </span>
                 </a>
-                <Link to='https://github.com/Mehedimid' className="common-btn ">
+                <Link to='https://github.com/Mehedimid' target="blank" className="common-btn ">
                   {" "}
                   <span className="flex gap-1 items-center ">
                     {" "}
